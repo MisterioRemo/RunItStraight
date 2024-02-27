@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7969658446273227804}
   - component: {fileID: 6786679637446861478}
+  - component: {fileID: 39494291766804225}
   m_Layer: 0
   m_Name: PolyominoFactory
   m_TagString: Untagged
@@ -47,3 +48,15 @@ MonoBehaviour:
   polyominoPrefabs:
   - type: 0
     prefab: {fileID: 7548540731532184015, guid: ef8ddf4e4239084419036e1d6c43afec, type: 3}
+--- !u!114 &39494291766804225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5878889400370353809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4c7a584f43e2ad42807ea0949deb6e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

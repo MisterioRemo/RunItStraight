@@ -39,7 +39,7 @@ namespace ris.polyomino
       if (!PolyominoPrefabs.ContainsKey(_type))
         return false;
 
-      DiContainerRef.Container.InstantiatePrefab(PolyominoPrefabs[_type]);
+      _polyomino = DiContainerRef.Container.InstantiatePrefab(PolyominoPrefabs[_type]).GetComponent<Polyomino>();
 
       return true;
     }

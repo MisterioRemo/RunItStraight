@@ -14,6 +14,10 @@ namespace ris.polyomino
     {
       transform.position += _direction;
     }
+    public void Move(Vector2 _direction)
+    {
+      Move(new Vector3(_direction.x, 0, _direction.y));
+    }
     #endregion
   }
 }

@@ -9,7 +9,7 @@ namespace ris
     public override void InstallBindings()
     {
       Container
-        .Bind<polyomino.PolyominoFactory>()
+        .Bind(typeof(polyomino.PolyominoFactory), typeof(polyomino.PolyominoSpawner))
         .FromComponentInNewPrefab(factoryPrefab)
         .AsSingle()
         .NonLazy();
